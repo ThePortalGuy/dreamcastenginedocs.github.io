@@ -1,8 +1,12 @@
 ---
-title: Everything
-nav_order: 1
+layout: default
+title: "My Page"
+permalink: /my-page/
 ---
 
+# Hello!
+
+This is my page.
 
 # DUSTALE I CANT
 
