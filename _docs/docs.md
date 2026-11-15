@@ -1,3 +1,9 @@
+---
+title: Everything
+nav_order: 0
+---
+
+
 # DUSTALE I CANT
 
 It's a dustale take for real for real. This repo is private so only the devs can see it lols
