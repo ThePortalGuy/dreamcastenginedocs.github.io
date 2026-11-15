@@ -1,3 +1,16 @@
-# Configure the remote_theme plugin with the gh-pages branch
-# or the specific tag
-remote_theme: aksakalli/jekyll-doc-theme@gh-pages   
+remote_theme: ksauraj/stygian
+
+title: My docs
+description: Short site description used for SEO meta.
+
+collections:
+  docs:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: docs
