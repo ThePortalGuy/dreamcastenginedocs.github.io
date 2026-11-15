@@ -14,3 +14,32 @@ defaults:
       type: docs
     values:
       layout: docs
+
+stygian:
+  nav:
+    title: Docs          # sidebar heading (default "Docs")
+    collection: docs     # collection rendered in the sidebar
+  header:
+    aux_links:
+      - { label: GitHub, href: https://github.com/ThePortalGuy/DUSTTALE-I-CANT }
+    aux_links_new_tab: true
+  theme:
+    default: dark        # fallback theme before the visitor's choice
+    transition: true     # circular reveal on switch; false = instant
+  search:
+    enabled: true
+    placeholder: Search docs
+  syntax_highlighting:
+    enabled: true        # optional rouge token colors (dark/light aware)
+  back_to_top: true
+  seo:
+    enabled: true
+    # image: /assets/og.png   # optional Open Graph image
+  edit:
+    enabled: true
+    repo: https://github.com/ThePortalGuy/DUSTTALE-I-CANT
+    branch: main
+    view: tree           # or "edit" to jump into the editor
+  footer:
+    note: dreamcast docs
+    right: "Copyright dustale sand"
